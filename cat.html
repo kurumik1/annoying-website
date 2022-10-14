@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <title>cat</title>  
+  <script src="gamign.js">  
+  </script>  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <body>
+    <img src="images/cat.png" href="#" onclick="doSomethingOnClick()" class="cat" id="catimg"> 
+  </body>
+  <script>
+    var audio = new Audio("images/vineboom.wav");
+    audio.loop = false;
+    audio.play(); 
+  </script>
+  <script>
+    setTimeout(function() {
+      let speaknow = new SpeechSynthesisUtterance('hello am the cat of gaming'); //says a lot about society 
+      window.speechSynthesis.speak(speaknow); 
+    }, 5000);
+    setTimeout(function() {
+      let speaknow = new SpeechSynthesisUtterance('the fuck are you still doing here'); 
+      window.speechSynthesis.speak(speaknow); 
+    }, 15000);
+    setTimeout(function() {
+      let speaknow = new SpeechSynthesisUtterance("arlight see you later");
+      window.speechSynthesis.speak(speaknow); 
+    }, 20000);
+    setTimeout(function() {
+      window.close()
+    }, 21000);
+  </script>
+
+</html>

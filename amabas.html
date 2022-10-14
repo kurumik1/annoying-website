@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<html>
+  <body>
+    <img class="penes" src="images/unknown.png">
+    <script>
+      let i = 5;
+      var audio = new Audio("images/vineboom.wav");
+      audio.loop = true;
+      audio.play(); 
+      for (let i = 0; i < 10; i++) {
+        let speaknow = new SpeechSynthesisUtterance('Your computer has a virus'); //says a lot about society 
+        window.speechSynthesis.speak(speaknow); 
+      }
+    </script>
+  </body>
+</html>
