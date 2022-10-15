@@ -105,3 +105,41 @@ p { font-family: Arial; }
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
+
+.cock{
+  border-radius: 15px;
+  border: black solid;
+  transition: .1s;
+  position: relative;
+  left: 32%;
+  top: 20%;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.cock:active {
+  scale: 0.9;
+}
+.cockclickcount{
+  font-size: 170px;
+  position: absolute;
+  left: 45%;
+  top: -15%;
+}
+.wantcocks{
+  position: relative;
+  left: 32%;
+  top: 25%;
+}
+
+.ambs{
+  position: relative;
+  left: 7%;
+  top: 35%;
+}
+.linkdiv{
+  background-color: #59bef4;    
+  width: 100%; 
+  height: 20%;
+  position: relative;
+  top: 55%;
+}
